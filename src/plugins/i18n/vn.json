@@ -1,0 +1,671 @@
+{
+    "table": {
+        "header": {
+            "keyword": "Từ khóa",
+            "from": "Từ",
+            "incentive": "Ngày Tiền hoa hồng",
+            "to": "Tới",
+            "search": "Tìm kiếm",
+            "export": "Xuất tập tin",
+            "add": "Thêm"
+        },
+        "button": {
+            "update": "Cập nhật"
+        },
+        "deleteButton": {
+            "message_alert": "Bạn có chắc?",
+            "message_success": "Xóa thành công",
+            "message_cancel": "Hủy xóa",
+            "message_warning": "Cảnh báo"
+        },
+        "searchRating": {
+            "rating_from_4_to_5": "Điểm đánh giá từ 4 đến 5",
+            "rating_from_3_to_less_than_4": "Điểm đánh giá từ 3 đến nhỏ hơn 4",
+            "rating_from_2_to_less_than_3": "Điểm đánh giá từ 2 đến nhỏ hơn 3",
+            "rating_from_1_to_less_than_2": "Điểm đánh giá từ 1 đến nhỏ hơn 2",
+            "rating_under_1": "Điểm đánh giá bé hơn 1"
+        },
+        "searchHotel": {
+            "newest_to_oldest": "Mới nhất trước",
+            "oldest_to_newest": "Cũ nhất trước",
+            "hotel_name_a_z": "Tên khách sạn A - Z",
+            "hotel_name_z_a": "Tên khách sạn Z - A",
+            "hightest_to_lowest_rating": "Điểm đánh giá từ cao tới thấp",
+            "lowest_to_highest_rating": "Điểm đánh giá từ thấp tới cao",
+            "most_to_least_review": "Lượt bình luận nhiều nhất",
+            "least_to_most_review":"Lượt bình luận thấp nhất"
+        },
+        "exportButton": {
+            "export_success": "Xuất thành công",
+            "export_fail": "Xuất thất bại"
+        },
+        "dashboard": {
+            "label_header": {
+                "category": "Danh mục",
+                "title": "Tiêu đề",
+                "display": "HIển thị",
+                "last_update": "Cập nhật lần cuối"
+            },
+            "detail": {
+                "category": "Danh mục",
+                "title1": "Tiêu đề 1",
+                "title2": "Tiều đề 2",
+                "title3": "Tiều đề 3",
+                "display": "Hiện thị",
+                "last_update": "Cập nhật lần cuối ",
+                "content": "Nội dung "
+            },
+            "button": {
+                "setup": "Thay đổi"
+            }
+        },
+        "user": {
+            "label_header": {
+                "nickname": "Biệt danh",
+                "gender": "Giới tính",
+                "birthday": "Ngày sinh",
+                "email": "Thử điện tử",
+                "mobile": "Điện thoại",
+                "province": "Nơi đăng kí",
+                "login_by": "Đăng nhập bởi",
+                "point": "Điểm dùng được",
+                "res_time": "Ngày đăng kí",
+                "open-app": "Mở app",
+                "last_op_app": "Mở app lần cuối",
+                "operations": "Chức năng"
+            },
+            "static": "Tổng số account",
+            "mobile_devices": "Tổng thiết bị cài đặt",
+            "gender": {
+                "male": "Nam",
+                "female": "Nữ",
+                "none": "Không xác đinh"
+            },
+            "button": {
+                "delete": "Xóa",
+                "edit": "Sửa",
+                "back": "Quay lại"
+            },
+            "edit": {
+                "user_id": "Mã người dùng",
+                "nickname": "Biệt danh",
+                "gender": "Giới tính",
+                "birthday": "Ngày sinh",
+                "email": "Email",
+                "mobile": "Điện thoại",
+                "address": "Địa chỉ",
+                "password": "Mật khẩu",
+                "re_password": "Xác nhận mật khẩu",
+                "message": {
+                    "success": "Sửa thành công",
+                    "error": "Sửa thất bại",
+                    "password": "Xác nhận mật khẩu không khớp với mật khẩu"
+                }
+            },
+            "create": {
+                "message": {
+                    "success": "Thêm thành công",
+                    "error": "Thêm thất bại"
+                }
+            },
+            "detail": {
+                "nickname": "Biệt danh",
+                "user_id": "User id",
+                "birthday": "Sinh nhật",
+                "email": "Email",
+                "gender": "Giới tính",
+                "mobile": "Điện thoại",
+                "address": "Địa chỉ",
+                "member_id": "Mã thành viên",
+                "login_by": "Đăng nhập bởi",
+                "res_time": "Ngày đăng kí",
+                "last_open_app": "Lần cuối mở app",
+                "last_update": "Lần cuối cập nhật",
+                "device_code": "Mã thiết bị",
+                "status": "Trạng thái",
+                "open_app": "Mở app",
+                "open_app_last": "Mở app lần cuối"
+            }
+        },
+        "hotels": {
+            "label_header": {
+                "product-type-name": "Product Type name",
+                "image": "Image",
+                "status": "Status",
+                "last_update": "Last Update",
+                "mobile": "Điện thoại",
+                "province": "Nơi đăng kí",
+                "login_by": "Đăng nhập bởi",
+                "point": "Điểm dùng được",
+                "res_time": "Ngày đăng kí",
+                "open-app": "Mở app",
+                "last_op_app": "Mở app lần cuối",
+                "operations": "Chức năng",
+                "groupname": "Tên Nhóm",
+                "ownername": "Tên NV",
+                "ownertel": "Điện thoại NV",
+                "owneremail": "Email NV",
+                "companyname": "Tên công ty",
+                "businesslisencenumber": "BLN",
+                "companyaddress": "Đia chỉ công ty",
+                "companytel": "Điện thoại Cty",
+                "companyemail": "Email công ty",
+                "totalhotel": "SL khách sạn",
+                "product_name": "Tên sản phẩm",
+                "product_type_name": "Loại sản phẩm",
+                "price": "Giá",
+                "prepare_before_1_day": "Chuẩn bị trước 1 ngày",
+                "lastupdate": "Cập nhật cuối",
+                "status_product_list": "Trạng thái",
+                "name": "Tên",
+                "facility_name_en": "Tên tiện ích (Tiếng anh)",
+                "createstaff": "Người tạo",
+                "hotel_name": "Tên khách sạn",
+                "hotel_status": "Trạng thái hợp đồng",
+                "address": "Địa chỉ",
+                "average_rating": "Điểm trung bình ( Tiện ích / Sạch sẽ / Dịch vụ )",
+                "number_of_review": "Tổng số bình luận ( Tổng số trả lời bình luận )",
+                "num_of_review_like": "Tổng số thích bình luận",
+                "last_review": "Bình luận cuối",
+                "name_product_type": "Loại sản phẩm",
+                "image_product_type": "Hình ảnh",
+                "status_product_type": "Trạng thái",
+                "last_update_product_type": "Chỉnh sửa lần cuối",
+                "group_name_display": "Tên Nhóm",
+                "hotel_name_display": "Tên khách sạn",
+                "code_display": "Mã",
+                "status_display": "Tình trạng",
+                "total_view_display": "Lượt xem",
+                "checkin_checkout_time_display": "Checkin/checkout",
+                "start_end_overnight_display": "Giờ qua đêm",
+                "payment": "PT thanh toán",
+                "staff_in_change": "Người phụ trách",
+                "full_name_staff_hotel": "Họ tên",
+                "user_id_staff_hotel": "User Id",
+                "role_staff_hotel": "Phân quyền",
+                "email_staff_hotel": "Email",
+                "mobile_staff_hotel": "Di động",
+                "receive_sms_staff_hotel": "Nhận tin nhắn",
+                "enable_staff_hotel": "Hoạt động",
+                "avg_rating_review_hotel": "Điểm đánh giá trung bình / Tổng số khách sạn có đánh giá / Tổng số bình luận",
+                "average_rating_view_review_hotel": "Điểm trang bình (Tiện ích / Sạch sẽ / Dịch vụ) :",
+                "number_of_review_hote": "Tổng số bình luận (Tổng số trả lời bình luận) : ",
+                "private_policy_service_agreenebt": "Chính sách bảo mật thông tin",
+                "service_agreement_service_agreenebt": "Điều khoản sử dụng và qui chế hoạt động",
+                "mileage_point_service_agreenebt": "Tích điểm",
+                "payment_policy_service_agreenebt": "Điều khoản thanh toán"
+            },
+            "create": {
+                "namegroup": "Tên Nhóm",
+                "ownerinformation": "Thông tin người chủ",
+                "ownername": "Tên NV",
+                "ownertel": "Điện thoại NV",
+                "owneremail": "Email NV",
+                "companyinformation": "Thông tin công ty",
+                "companyname": "Tên công ty",
+                "businesslisencenumber": "BLV",
+                "companytel": "Điện thoại Cty",
+                "companyemail": "Email công ty",
+                "companyaddress": "Địa chỉ công ty",
+                "addhoteltogroup": "Thêm vào nhóm"
+            },
+            "create_facility": {
+                "facility_name_vn": "Tên tiện ích (Tiếng việt)",
+                "facility_name_en": "Loại sản phẩm (Tiếng anh)",
+                "image": "Hình ảnh"
+            },
+            "create_group-type": {
+                "product_type_name": "Loại sản phẩm",
+                "product_type_nameEn": "Product Type name (English)",
+                "image": "Image "
+            },
+            "create_hotel_display": {
+                "group_name": "Tên Nhóm",
+                "hotel_name": "Tên khách sạn",
+                "holding_company": "Công ty sở hữu",
+                "tax_no": "Mã số thuế",
+                "business_license": "Má số doanh nghiệp",
+                "company_name": "Tên công ty",
+                "address": "Địa chỉ",
+                "legal_representative": "Đại diện pháp luật",
+                "full_name": "Tên đầy đủ",
+                "position": "Chức vụ",
+                "telephone": "Điện thoại",
+                "email": "Email",
+                "status": "Tình trạng",
+                "waiting": "Chờ duyệt",
+                "contract_date": "Ngày hợp đồng",
+                "end_contract_date": "Ngày hết hợp đồng",
+                "bank_information": "Thông tin tài khoản",
+                "account_no": "Số tài khoản",
+                "bank_name": "Tên ngân hàng",
+                "branch_name": "Chi nhánh",
+                "beneficiary": "Người hưởng thụ",
+                "biz_in_charge": "NV quản lý",
+                "manage_hotel_after_contracting": "Nhân viên quản lý khách sạn sau khi hợp đồng",
+                "sale_in_charge": "NV hợp đồng",
+                "contracting_new_hotel": "Nhân viên hợp đồng với khách sạn mới",
+                "property_management_system": "Property Management System(Hotel PMS)",
+                "yes_i_using": "Có, tôi sử dụng",
+                "ez_cloud": "Ez Cloud",
+                "bhotel_easy": "bHotel Easy",
+                "hbsoft_hotel": "HBSoft Hotel",
+                "ohotel": "Ohotel",
+                "sky_hotel": "Sky Hotel",
+                "intellio": "INTELLIO",
+                "fotel": "Fotel",
+                "no_i_just_use": "Không, tôi chỉ dùng",
+                "excel": "Excel",
+                "notebook": "NoteBook",
+                "google_sheet": "Google Sheet",
+                "lat_long": "Kinh độ/ Vĩ độ",
+                "lat": "Vĩ độ",
+                "long": "Kinh độ",
+                "province_district": "Tỉnh/Quận",
+                "phone": "Điện thoại",
+                "vn_description": "Miêu tả tiếng việt",
+                "en_description": "Miêu tả tiếng anh",
+                "tip_address": "Gợi ý địa chỉ",
+                "commission": "Hoa hồng",
+                "hash_tag": "Hash tag",
+                "facilities": "Tiện ích",
+                "home_image": "Hình hiển thị",
+                "image": "Hình",
+                "image360": "Hình 360",
+                "location": "Vị trí  ",
+                "hotel_type": "Loại khách sạn",
+                "displayed": "Đã duyệt",
+                "trial": "Dùng thử",
+                "contracted": "Hợp đồng",
+                "none": "---",
+                "couples": "Tình nhân",
+                "travel": "Du lịch",
+                "couples_and_travel": "Tình nhân và Du lịch"
+            },
+            "static": "Tổng số account",
+            "mobile_devices": "Tổng thiết bị cài đặt",
+            "gender": {
+                "male": "Nam",
+                "female": "Nữ",
+                "none": "Không xác đinh"
+            },
+            "button": {
+                "delete": "Xóa",
+                "edit": "Sửa",
+                "back": "Quay lại",
+                "create": "Thêm mới"
+            },
+            "edit": {
+                "user_id": "Mã người dùng",
+                "nickname": "Biệt danh",
+                "gender": "Giới tính",
+                "birthday": "Ngày sinh",
+                "email": "Email",
+                "mobile": "Điện thoại",
+                "address": "Địa chỉ",
+                "password": "Mật khẩu",
+                "re_password": "Xác nhận mật khẩu",
+                "message": {
+                    "success": "Sửa thành công",
+                    "error": "Sửa thất bại",
+                    "password": "Xác nhận mật khẩu không khớp với mật khẩu"
+                }
+            },
+            "detail-facility": {
+                "hotel_name": "Tên khách sạn",
+                "full_name": "Họ tên",
+                "enable": "Hoạt động",
+                "user_id": "User Id",
+                "mobile": "Di động",
+                "email": "Email",
+                "debt_email": "Email công nợ",
+                "memo": "Ghi chú"
+            }
+        },
+        "devices": {
+            "label_header": {
+                "mobile_user_id": "Mã thiết bị",
+                "app_user_nickName": "Đang đăng nhập",
+                "first_app_user_nickName": "Đăng kí đầu tiên",
+                "device_code": "Thiết bị",
+                "push_notification": "Thông báo",
+                "last_open_app": "Lần cuối mở app",
+                "app_version": "Phiên bản",
+                "install": "Cài đặt",
+                "register_province": "Nơi cài đặt",
+                "res_time": "Ngày đăng kí",
+                "last_update": "Đăng nhập lần cuối"
+            }
+        },
+        "counseling": {
+            "label_header": {
+                "scope": "Pham vi",
+                "title": "Tiêu đề",
+                "nickname": "Biệt danh",
+                "create_time": "Thời gian tạo",
+                "last_update": "Cập nhật lần cuối"
+            },
+            "reply": {
+                "nickname": "Biệt danh",
+                "user_id": "User id",
+                "birthday": "Sinh nhật",
+                "email": "Email",
+                "gender": "Giới tính",
+                "mobile": "Điện thoại",
+                "address": "Địa chỉ",
+                "member_id": "Mã thành viên",
+                "login_by": "Đăng nhập bởi",
+                "res_time": "Ngày đăng kí",
+                "last_open_app": "Lần cuối mở app",
+                "last_update": "Lần cuối cập nhật",
+                "device_code": "Mã thiết bị",
+                "status": "Trạng thái",
+                "contentQ&A": "Nội Dung Q&A",
+                "message": {
+                    "success": "Trả lời thành công",
+                    "error": "Trả lời thất bại"
+                }
+            },
+            "create": {
+                "title": "Tiêu đề",
+                "content": "Nội dung",
+                "sendUser": "Gửi người dùng",
+                "placeholderUser": "Tới người dùng",
+                "placeholderScope": "Phạm vi",
+                "scope": "Phạm vi"
+            },
+            "status": {
+                "login": "Đang đăng nhập",
+                "un_login": "Không đăng nhập"
+            },
+            "button": {
+                "edit": "Trả lời",
+                "delete": "Xóa",
+                "create": "Thêm",
+                "back": "Quay lại"
+            }
+        },
+        "account_sale": {
+            "label_header": {
+                "incentive_date": "Ngày Khuyến khích",
+                "created_by": "Tạo bởi",
+                "status": "Trạng thái",
+                "created_time": "Ngày tạo",
+                "confirmed_time": "Ngày xác nhận",
+                "detail": "Chi tiết",
+                "label_header_detail": {
+                    "staff_name": "Tên nhân viên",
+                    "incentive": "Khuyến khích",
+                    "pit": "PIT",
+                    "income": "Thu nhập",
+                    "new_contract": "Liên hệ mới",
+                    "stamp": "tem",
+                    "hotel_promotion": "Khuyến mãi riêng khách sạn",
+                    "co_promotion": "Khuyến mãi",
+                    "new_hotel_checkin_amount": "Số lượng check-in khách sạn",
+                    "header_button": {
+                        "confirm": "Xác nhận",
+                        "save": "Lưu"
+                    }
+                },
+                "label_header_detail_of_staff": {
+                    "category": "Danh mục",
+                    "province": "Nơi đăng kí",
+                    "district": "Địa chỉ",
+                    "hotel_name": "Tên khách sạn",
+                    "verified_date": "Ngày hợp đồng",
+                    "contract_date": "Ngày hợp đồng",
+                    "contract_per": "Hợp đồng (%)",
+                    "program": "Chương trình",
+                    "start_date_promotion": "Ngày bắt đầu khuyễn mãi",
+                    "end_date_promotion": "Ngày kết thúc khuyễn mãi",
+                    "start_date_stamp": "Ngày bắt đầu tem",
+                    "new_contract_type": "Loại hợp đồng mới",
+                    "number_of_checkin_bookings": "Số lần checkin đặt phòng",
+                    "commission_of_checkin_amount": "Số lần booking đã nhận",
+                    "incentive": "Tiền hoa hồng"
+                },
+                "label_header_detail_of_account_sale_incentive": {
+                    "staff_name": "Tên nhân viên",
+                    "category": "Danh mục",
+                    "province": "Nơi đăng kí",
+                    "district": "Địa chỉ",
+                    "hotel_name": "Tên khách sạn",
+                    "verified_date": "Ngày hợp đồng",
+                    "contract_date": "Ngày liên hệ",
+                    "contract_per": "Hợp đồng (%)",
+                    "program": "Chương trình",
+                    "start_date_promotion": "Ngày bắt đầu khuyễn mãi",
+                    "end_date_promotion": "Ngày kết thúc khuyễn mãi",
+                    "start_date_stamp": "Ngày bắt đầu tem",
+                    "new_contract_type": "Loại hợp đồng mới",
+                    "stage": "Stage",
+                    "number_of_checkin_bookings": "Số lần checkin đặt phòng",
+                    "commission_of_checkin_amount": "Số lần booking đã nhận",
+                    "incentive": "Tiền hoa hồng",
+                    "message": {
+                        "comfirm": {
+                            "success": "Xác nhận thành công",
+                            "error": "Xác nhận thất bại"
+                        },
+                        "save": {
+                            "success": "Lưu thành công",
+                            "error": "Lưu thất bại"
+                        }
+                    }
+                },
+                "label_header_staff_management": {
+                    "full_name": "Họ tên",
+                    "user_id": "User id",
+                    "role": "Phân quyền",
+                    "mobile": "Di động",
+                    "email": "Email",
+                    "region": "Khu vực",
+                    "history": "Lịch sử",
+                    "button": {
+                        "history": "Xem lịch sử"
+                    }
+                }
+            },
+            "button": {
+                "delete": "Xóa",
+                "create": "Create",
+                "edit": "Thêm",
+                "back": "Quay lại"
+            },
+            "detail": {
+                "full_name": "Họ tên",
+                "enable": "Hoạt động",
+                "user_id": "User id",
+                "role": "Phân quyền",
+                "mobile": "Di động",
+                "email": "Email",
+                "Address": "Địa chỉ"
+            },
+            "create": {
+                "user_id": "User id",
+                "full_name": "Họ tên",
+                "role": "Phân quyền",
+                "mobile": "Điện thoại",
+                "email": "Email",
+                "address": "Địa chỉ",
+                "role_region": "Phân vùng",
+                "memo": "Ghi chú",
+                "password": "Mật khẩu",
+                "confirm_password": "Xác nhận mật khẩu",
+                "message": {
+                    "success": "Thêm thành công",
+                    "error": "Thêm thất bại",
+                    "password": "Xác nhận mật khẩu không khớp với mật khẩu"
+                }
+            }
+        },
+        "setting": {
+            "general_setting": {
+                "update_setting": "Cập nhật thiết lập",
+                "change_new_to_normal_after": "Đổi khách sạn từ 'Mới' đến 'Bình thường' sau",
+                "block_booking_from": "Chặn booking sau",
+                "last_version": "Phiên bản GO2JOY cuối",
+                "partner_last_version": "Phiên bản GO2JOY PARTNER cuối",
+                "cineJoy_last_version": "Phiên bản CineJoy cuối",
+                "refresh_cache_data": "Làm mới dữ liệu cache",
+                "button": {
+                    "refresh": "Refresh"
+                }
+            }
+        },
+        "popup": {
+            "label_header": {
+                "title": "Tiêu đề",
+                "image": "Hình ảnh",
+                "linked_name": "Tên liên kết",
+                "linked_type": "Loại liên kết",
+                "disable_condition": "Điều kiện ngưng",
+                "total_of_views": "Tổng lượt xem",
+                "total_of_clicks": "Tổng lượt click",
+                "status": "Trạng thái"
+            },
+            "button": {
+                "edit": "Sửa"
+            }
+        },
+        "banner":{
+            "label_header":{
+                "title"                      : "Tiêu đề",
+                "image"                      : "Hình ảnh",
+                "linked_name"                : "Tên liên kết",
+                "linked_type"                : "Loại liên kết",
+                "disable_condition"          : "Điều kiện ngưng",
+                "total_of_views"             : "Tổng lượt xem",
+                "total_of_clicks"            : "Tổng lượt click",
+                "status"                     : "Trạng thái",
+                "label_header_detail":{
+                    "title"                      : "Tiêu đề",
+                    "linked_type"                : "Loại liên kết",
+                    "status"                     : "Trạng thái",
+                    "display_area"               : "Khu vực hiển thị",
+                    "last_update"                : "Cập nhật lần cuối",
+                    "image"                      : "Hình ảnh"
+                }
+            },
+            "button":{
+                "edit": "Sửa"
+            },
+            "status":{
+                "active"  : "Hoạt đông",
+                "disable" : "Không hoạt động" 
+            }
+        },
+        "service_agreement_mgt":{
+            "update_service_agreement_mgt":{
+                "update_private_policy_service_agreenebt" : "Chỉnh sửa Chính sách hoạt động",
+                "update_supdate_ervice_agreement_service_agreenebt": "Chỉnh sửa Thỏa thuận dịch vụ",
+                "update_mileage_point_service_agreenebt": "Chỉnh sửa tích điểm",
+                "update_payment_policy_service_agreenebt": "Chỉnh sửa điều khoản thanh toán"
+            }
+        }
+    },
+    "breadcrumb": {
+        "home": "Trang chủ",
+        "dashboard": "Bảng điều khiển",
+        "hotels": "Khách sạn",
+        "product-type-mgt": "Q.Lý Loại Sản Phẩm",
+        "product-mgt": "Q.Lý Sản Phẩm",
+        "hotel-group-mgt": "Quản Lý Nhóm Ks",
+        "hotel-display-mgt": "Quản Lý Khách Sạn",
+        "room-type-mgt": "Quản Lý Loại Phòng",
+        "hotel-staff-mgt": "Quản Lý Nhân Viên",
+        "facility-mgt": "Quản Lý Tiện Ích",
+        "notice-to-hotel": "Tin Nhắn Đến KS",
+        "stamp-mgt": "Quản Lý Tem",
+        "review-mgt": "Quản Lý Bình Luận",
+        "edit": "Sửa",
+        "create": "Thêm",
+        "detail": "Chi tiết",
+        "service_agree": "Quản Lý Chính Sách",
+        "view-review-hotel": "Quản lý chi tiết bình luận",
+        "u_lf_side": {
+            "name": "Người dùng",
+            "user": "Quản lý người dùng",
+            "device": "Quản lý thiết bị",
+            "counseling": "Quản lý tư vấn"
+        },
+        "acc_lf_side": {
+            "name": "Quản Lý TK SA",
+            "account_sale_incentive": "Tài khoản hoa hồng",
+            "account_sale_incentive_history": "Lịch sử  tài khoản hoa hồng",
+            "detail": "Chi tiết",
+            "detail_of_staff": "Chi tiết nhân sự",
+            "account_sale_incentive_detail": "Chi tiết tài khoản hoa hồng",
+            "staff_management": "Quản lý N.Viên G2J",
+            "confirm_group_mgt": "Thiết Lập Nhóm Xác Nhận"
+        },
+        "mileage-point-mgt": {
+            "name": "Q.Lý Điểm Thưởng",
+            "mp_boosting_mgt": "Chương trình ĐT",
+            "mp_user_gmt": "ĐT Người Dùng"
+        },
+        "tracking-mgt": {
+            "name": "Thống Kê Dữ Liệu",
+            "booking_tracking": "Theo Dõi Đặt Phòng",
+            "hotel_status_tracking": "Theo Dõi Trạng Thái KS",
+            "booking_insight": "Thông tin chi tiết",
+            "hotel_introduce_signup": "Theo dõi Đăng ký KS"
+        },
+        "booking": {
+            "name": "Đặt Phòng",
+            "booking_report": "Báo Cáo Đặt Phòng",
+            "cash_flow_report": "Báo Cáo Dòng Tiền",
+            "hotel_debt_mgt": "Quản Lý Nợ KS",
+            "sending_mail_mgt": "Lịch Sử Gởi Mail"
+        },
+        "marketing": {
+            "name": "Marketing",
+            "banner": "Banner",
+            "popup": "Popup",
+            "promotion": "Promotion",
+            "invite_friend_mgt": "CT mời bạn",
+            "notice": "Notice",
+            "notification": "Notification",
+            "sms": "SMS",
+            "crm": "CRM",
+            "pgpb_mgt": "Quản Lý PGPB",
+            "create_pupup": {
+                "title": "Tiêu đề",
+                "content": "Nội dung",
+                "link_item": "Phần tử liên kết ",
+                "max_view_display": "Số lần xem / Hiển thị",
+                "stop_at": "Ngày kết thúc",
+                "display_area": "Khu vực hiển thị",
+                "none_selected": "Chọn tỉnh thành",
+                "image": "Hình ảnh",
+                "choose": "lựa chọn",
+                "promotion_event_select": "Khuyến mãi / Sự kiện",
+                "hotel_select": "Khách sạn",
+                "notice_select": "Thông báo",
+                "link_select": "Link liên kết",
+                "district_select": "Quận",
+                "mileage_Point_select": "Tích điểm",
+                "coupon_select": "Coupon",
+                "direct_discount_select": "Giảm giá",
+                "amenity_pack_select": "Gói  tiện ích"
+            }
+        },
+        "setting": {
+            "name": "Cài đặt",
+            "general_setting": "Cài đặt chung"
+        }
+    },
+    "pagination": {
+        "total": "Tổng",
+        "page": "Trang",
+        "go_to": "Đi tới"
+    },
+    "Region": {
+        "south": "Nam",
+        "north": "Bắc",
+        "west": "Tây",
+        "est": "Đông",
+        "middle": "Trung"
+    }
+}

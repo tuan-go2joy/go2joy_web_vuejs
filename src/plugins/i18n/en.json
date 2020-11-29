@@ -1,0 +1,684 @@
+{
+    "table":{
+        "header":{
+            "keyword"       : "Keyword",
+            "from"          : "From",
+            "placeholder"   : "Staus",
+            "to"            : "To",
+            "incentive"     : "Incentive",
+            "search"        : "Search",
+            "export"        : "Export file",
+            "add"           : "Add"
+        },
+        "button": {
+            "update" : "Update"
+        },
+        "deleteButton":{
+            "message_alert"  :  "Are yot sure?",
+            "message_success":"Delete success",
+            "message_cancel" : "Delete cancel",
+            "message_false" : "Delete cancel",
+            "message_warning":"Warning"
+
+        },
+        "createButton":{
+            "message_alert"  :  "Are yot sure?",
+            "message_success":"Delete success",
+            "message_cancel" : "Delete cancel",
+            "message_false" : "Delete cancel",
+            "message_warning":"Warning"
+
+        },
+        "searchRating": {
+            "rating_from_4_to_5": "Rating from 4 to 5",
+            "rating_from_3_to_less_than_4": "Rating from 3 to less than 4",
+            "rating_from_2_to_less_than_3": "Rating from 2 to less than 3",
+            "rating_from_1_to_less_than_2": "Rating from 1 to less than 2",
+            "rating_under_1": "Rating under 1"
+        },
+        "searchHotel": {
+            "newest_to_oldest": "Newest to oldest",
+            "oldest_to_newest": "Oldest to newest",
+            "hotel_name_a_z": "Hotel name A - Z",
+            "hotel_name_z_a": "Hotel name Z - A",
+            "hightest_to_lowest_rating": "Hightest to lowest rating",
+            "lowest_to_highest_rating": "Lowest to highest rating",
+            "most_to_least_review": "Most to least review",
+            "least_to_most_review":"Least to most review"
+        },
+        "exportButton":{
+            "export_success":"Export success",
+            "export_fail"   :"Export fail"
+        },
+        "dashboard":{
+            "label_header":{
+                "category"    : "Category",
+                "title"       : "Title1",
+                "display"     : "Display",
+                "last_update" : "Last update"
+            },
+            "detail" : {
+                "category"    : "Category",
+                "title1"      : "Title1",
+                "title2"      : "Title2",
+                "title3"      : "Title3",
+                "display"     : "Display",
+                "last_update" : "Last_update",
+                "content"     : "Content",
+                "message":{
+                    "success"  : "Create success",
+                    "error"    : "Create fail"
+                }
+            },
+            "button":{
+                "setup" : "Set up"
+            }
+        },
+        "user": {
+            "label_header":{
+                "nickname"    : "Nickname",
+                "gender"      : "Gender",
+                "birthday"    : "Birthday",
+                "email"       : "Email",
+                "mobile"      : "Mobile",
+                "province"    : "Register province",
+                "login_by"    : "Login by",
+                "point"       : "Effective point",
+                "res_time"    : "Register time",
+                "open-app"    : "Open app",
+                "last_op_app" : "Last open app",
+                "operations"  : "Operations"
+            },
+            "gender":{
+                "male"   :  "Male",
+                "female" :  "Female",
+                "none"   :  "None"
+            },
+            "static"          : "Total accounts",
+            "mobile_devices"  : "Total devices",
+            "button":{
+                "delete" : "Delete",
+                "edit"   : "Edit",
+                "back"   : "Back"
+            },
+            "edit" : {
+                "user_id"     : "User id",
+                "nickname"    : "Nickname",
+                "gender"      : "Gender",
+                "birthday"    : "Birthday",
+                "email"       : "Email",
+                "mobile"      : "Mobile",
+                "address"     : "Address",
+                "password"    : "Password",
+                "re_password" : "confirm_Password",
+                "message":{
+                    "success"  : "Edit success",
+                    "error"    : "Edit fail",
+                    "password" : "Confirm password not equal with password"
+                }
+            },
+            "create":{
+                "message":{
+                    "success"  : "Created success",
+                    "error"    : "Edit fail"
+                }
+            },
+            "detail" : {
+                "nickname"       : "Nickname",
+                "user_id"        : "User id",
+                "birthday"       : "Birthday",
+                "email"          : "Email",
+                "gender"         : "Gender",
+                "mobile"         : "Mobile",
+                "address"        : "Address",
+                "member_id"      : "Member id",
+                "login_by"       : "Login by",
+                "res_time"       : "Register time",
+                "last_open_app"  : "Last open app",
+                "last_update"    : "Last update",
+                "device_code"    : "Device code",
+                "status"         : "Status",
+                "open_app"       : "Open app",
+                "open_app_last"  : "Open app last"
+            }
+        },
+        "hotels":{
+            "label_header":{
+                "product-type-name"    : "Product Type name",
+                "image"                : "Image",
+                "status"               : "Status",
+                "last_update"          : "Last Update",
+                "mobile"               : "Mobile",
+                "province"             : "Register province",
+                "login_by"             : "Login by",
+                "point"                : "Effective point",
+                "res_time"             : "Register time",
+                "open-app"             : "Open app",
+                "last_op_app"          : "Last open app",
+                "groupname"            : "Group Name",
+                "ownername"            : "Owner Name",
+                "ownertel"             : "Owner Tel",
+                "owneremail"           : "Owner Email",
+                "companyname"          : "Company Name",
+                "businesslisencenumber": "Business Lisence Number",
+                "companyaddress"       : "Company Address",
+                "companytel"           : "Company Tel",
+                "companyemail"         : "Company Email",
+                "totalhotel"           : "Total Hotel",
+                "product_name"         :"Product name",
+                "product_type_name"    :"Product Type name",
+                "price"                :"Price",
+                "prepare_before_1_date":"Prepare before 1 day",
+                "lastupdate"           :"Last update",
+                "status_product_list"  :"Status",
+                "name"                 : "Name",
+                "facility_name_en"     : "Facility name (ENG)",
+                "createstaff"          : "Create Staff",
+                "hotel_name"           : "Hotel's name",
+                "hotel_status"         : "Hotel's status",
+                "address"              : "Address",
+                "average_rating"       : "Average Rating ( Facilities / Cleanliness / Services )",
+                "number_of_review"     : "Number of review  ( Number of hotel's reply )",
+                "num_of_review_like"   : "Num of review's like",
+                "last_review"          : "Last review",
+                "name_product_type"    : "Product Type name",
+                "image_product_type"   : "Image",
+                "status_product_type"  : "Status",
+                "last_update_product_type": "Last Update",
+                "group_name_display"   : "Group Name",
+                "hotel_name_display"   : "Hotel name",
+                "code_display"         : "Code",
+                "status_display"       : "Status", 
+                "total_view_display"   : "Total view",
+                "checkin_checkout_time_display": "Check-InCheck-Out Time",
+                "start_end_overnight_display": "Start/End Overnight",
+                "payment"              : "Payment",
+                "staff_in_change"      : "Staff in charge",
+                 "full_name_staff_hotel": "Full Name",
+                "user_id_staff_hotel"  : "User Id",
+                "role_staff_hotel"     : "Role",
+                "email_staff_hotel"    : "Email",
+                "mobile_staff_hotel"   : "Mobile",
+                "receive_sms_staff_hotel": "Receive SMS",
+                "enable_staff_hotel"   : "Enable",
+                "avg_rating_review_hotel":"Avg rating / No. of hotels reviewed / No. of review",
+                "average_rating_view_review_hotel": "Average Rating ( Facilities / Cleanliness / Services )",
+                "number_of_review_hote": "Number of review (Number of hotels reply) :",
+                "private_policy_service_agreenebt" : "Private Policy",
+                "service_agreement_service_agreenebt": "Service Agreement",
+                "mileage_point_service_agreenebt":"Mileage Point",
+                "payment_policy_service_agreenebt": "Payment policy"
+            },   
+            "create":{
+                "namegroup":"Name Group",
+                "ownerinformation": "Owner Information",
+                "ownername": "Owner Name",
+                "ownertel": "Owner Tel",
+                "owneremail":"Owner Email",
+                "companyinformation": "Company information",
+                "companyname":"Company Name",
+                "businesslisencenumber":"Business Lisence Number",
+                "companytel":"Company Tel",
+                "companyemail":"Company Email",
+                "companyaddress":"Company Address",
+                "addhoteltogroup": "Add Hotel To Group"
+
+            },
+            "create_facility":{
+                "facility_name_vn":"Facility name (VIE)",
+                "facility_name_en": "Facility name (ENG) ",
+                "image": "Image"
+            },
+            "create_group-type":{
+                "Product Type name":"Product Type name",
+                "Product Type name (English)": "Product Type name (English)",
+                "image": "Image "
+            },
+            "create_hotel_display":{
+                "group_name":"Group Name",
+                "hotel_name": "Hotel name",
+                "holding_company": "Holding company",
+                "tax_no": "Tax No",
+                "business_license": "Business license",
+                "company_name":"Company name",
+                "address": "Address",
+                "legal_representative": "Legal representative",
+                "full_name":"Full name",
+                "position":"Position",
+                "telephone": "Telephone",
+                "email":"Email",
+                "status": "Status",
+                "waiting": "Waiting",
+                "contract_date": "Contract date",
+                "end_contract_date": "End contract date",
+                "bank_information": "Bank information",
+                "account_no": "Account no",
+                "bank_name": "Bank name",
+                "branch_name": "Branch name",
+                "beneficiary": "Beneficiary",
+                "biz_in_charge": "Biz in charge",
+                "manage_hotel_after_contracting": "Manage hotels after contracting",
+                "sale_in_charge": "Sale in charge ",
+                "contracting_new_hotel": "Contracting new hotel",
+                "property_management_system": "Property Management System(Hotel PMS)",
+                "yes_i_using": "Yes, I'm using:",
+                "ez_cloud": "Ez Cloud",
+                "bhotel_easy": "bHotel Easy",
+                "hbsoft_hotel": "HBSoft Hotel",
+                "ohotel": "Ohotel",
+                "sky_hotel": "Sky Hotel",
+                "intellio": "INTELLIO",
+                "fotel": "Fotel",
+                "no_i_just_use": "No, I just use:",
+                "excel": "Excel",
+                "notebook": "NoteBook",
+                "google_sheet": "Google Sheet",
+                "lat_long": "Long/Lat",
+                "lat": "latitude",
+                "long": "longitude",
+                "province_district": "Province/District",
+                "phone":"Phone",
+                "vn_description":"Vietnamese description",
+                "en_description":"English description",
+                "tip_address":"Tips Address",
+                "commission":"Commission",
+                "hash_tag": "Hash tag",
+                "facilities": "Facilities",
+                "home_image":"Home Image",
+                "image": "Image",
+                "image360": "360 image",
+                "location": "Location ",
+                "hotel_type": "Hotel type",
+                "displayed": "Displayed",
+                "trial": "Trial",
+                "contracted": "Contracted",
+                "none": "---",
+                "couples": "Couples",
+                "travel": "Travel",
+                "couples_and_travel": "Couples and Travel"
+            },
+            "gender":{
+                "male"   :  "Male",
+                "female" :  "Female",
+                "none"   :  "None"
+            },
+            "static"          : "Total accounts",
+            "mobile_devices"  : "Total devices",
+            "button":{
+                "delete" : "Delete",
+                "edit"   : "Edit",
+                "back"   : "Back",
+                "create" : "Create"
+            },
+            "edit" : {
+                "user_id"     : "User id",
+                "nickname"    : "Nickname",
+                "gender"      : "Gender",
+                "birthday"    : "Birthday",
+                "email"       : "Email",
+                "mobile"      : "Mobile",
+                "address"     : "Address",
+                "password"    : "Password",
+                "re_password" : "confirm_Password",
+                "message":{
+                    "success"  : "Edit success",
+                    "error"    : "Edit fail",
+                    "password" : "Confirm password not equal with password"
+                }
+            },
+            "detail-facility": {
+                "hotel_name": "Hotel Name",
+                "full_name": "Full Name",
+                "enable": "Enable",
+                "user_id": "User Id",
+                "mobile": "Mobile",
+                "email": "Email",
+                "debt_email": "Debt Reconciliation Email",
+                "memo": "Memo"
+            }
+        },
+        "devices":{
+            "label_header":{
+                "mobile_user_id"          : "Mobile user id",
+                "app_user_nickName"       : "User login",
+                "first_app_user_nickName" : "First signup",
+                "device_code"             : "Device code",
+                "push_notification"       : "Notification",
+                "last_open_app"           : "Last open app",
+                "app_version"              : "Version",
+                "install"                 : "Install",
+                "register_province"       : "Register province",
+                "res_time"                : "Register time",
+                "last_update"             : "Last update"
+            }
+        },
+        "counseling":{
+            "label_header":{
+                "scope"      : "Scope",
+                "title"      : "Title",
+                "nickname"   : "Nickname",
+                "create_time": "Create time",
+                "last_update": "Last update"
+            },
+            "reply" : {
+                "nickname"       : "Nickname",
+                "user_id"        : "User id",
+                "birthday"       : "Birthday",
+                "email"          : "Email",
+                "gender"         : "Gender",
+                "mobile"         : "Mobile",
+                "address"        : "Address",
+                "member_id"      : "Member id",
+                "login_by"       : "Login by",
+                "res_time"       : "Register time",
+                "last_open_app"  : "Last open app",
+                "last_update"    : "Last update",
+                "device_code"    : "Device code",
+                "status"         : "Status",
+                "contentQ&A"     : "Content Q&A",
+                "message":{
+                    "success"    : "Reply success",
+                    "error"      : "Reply fail"
+                }
+            },
+            "create":{
+                "title"            : "Title",
+                "content"          : "Content",
+                "sendUser"         : "To user",
+                "placeholderUser"  : "To user",
+                "placeholderScope" : "Scope",
+                "scope"            : "Scope"
+            },
+            "status":{
+                "login"    : "Login",
+                "un_login" : "Un login"
+            },
+            "button" :{
+                "edit"   : "Reply",
+                "delete" : "Delete"
+            }
+        },
+        "account_sale":{
+            "label_header":{
+                "incentive_date"  : "Incentive date",
+                "created_by"      : "Created by",
+                "status"          : "Status",
+                "created_time"    : "Created time",
+                "confirmed_time"  : "Confirmed time",
+                "detail"          : "Detail",
+                "label_header_detail":{
+                    "staff_name"               : "Staff Name",
+                    "incentive"                : "Incentive",
+                    "pit"                      : "PIT",
+                    "income"                   : "Income",
+                    "new_contract"             : "New Contract",
+                    "stamp"                    : "Stamp",
+                    "hotel_promotion"          : "Hotel promotion",
+                    "co_promotion"             : "Co-promotion",
+                    "new_hotel_checkin_amount" : "New hotel checkin amount",
+                    "header_button"  :{
+                        "confirm" : "Confirm",
+                        "save"    : "Save"
+                    }
+                },
+                "label_header_detail_of_staff":{
+                    "category"                     : "Category",
+                    "province"                     : "Province",
+                    "district"                     : "District",
+                    "hotel_name"                   : "Hotel name",
+                    "verified_date"                : "Verified date",
+                    "contract_date"                : "Contract date",
+                    "contract_per"                 : "Contract (%)",
+                    "program"                      : "Program",
+                    "start_date_promotion"         : "Start date promotion",
+                    "end_date_promotion"           : "End date promotion",
+                    "start_date_stamp"             : "Start date stamp",
+                    "new_contract_type"            : "New contract type",
+                    "number_of_checkin_bookings"   : "Number of checkin bookings",
+                    "commission_of_checkin_amount" : "commission of checkin amount",
+                    "incentive"                    : "Incentive"
+                },
+                "label_header_detail_of_account_sale_incentive":{
+                    "staff_name"                   : "Staff Name",
+                    "province"                     : "Province",
+                    "district"                     : "District",
+                    "hotel_name"                   : "Hotel name",
+                    "verified_date"                : "Verified date",
+                    "contract_date"                : "Contract date",
+                    "contract_per"                 : "Contract (%)",
+                    "program"                      : "Program",
+                    "start_date_promotion"         : "Start date promotion",
+                    "end_date_promotion"           : "End date promotion",
+                    "start_date_stamp"             : "Start date stamp",
+                    "new_contract_type"            : "New contract type",
+                    "stage"                        : "Stage",
+                    "number_of_checkin_bookings"   : "Number of checkin bookings",
+                    "commission_of_checkin_amount" : "commission of checkin amount",
+                    "incentive"                    : "Incentive",
+                    "message":{
+                        "comfirm":{
+                            "success"    : "Comfirm success",
+                            "error"      : "Comfirm fail"
+                        },
+                        "save":{
+                            "success"    : "Save success",
+                            "error"      : "Save fail"
+                        }
+                       
+                    }
+                },
+                "label_header_staff_management":{
+                    "full_name" : "Full name",
+                    "user_id"   : "User id",
+                    "role"      : "Role",
+                    "mobile"    : "Mobile",
+                    "email"     : "Email",
+                    "region"    : "Region",
+                    "history"   : "History",
+                    "button":{
+                        "history"   : "View history"
+                    }
+                }
+            },
+            "button":{
+                "delete" : "Delete",
+                "edit"   : "Edit",
+                "back"   : "Back"
+            },
+            "detail":{
+                "full_name" : "Full name",
+                "enable"    : "Enable",
+                "user_id"   : "User id",
+                "role"      : "Role",
+                "mobile"    : "Mobile",
+                "email"     : "Email",
+                "Address"   : "Address"
+            },
+            "create":{
+                "user_id"          : "User id",
+                "full_name"        : "Full name",
+                "role"             : "Role",
+                "mobile"           : "Mobile",
+                "email"            : "Email",
+                "address"          : "Address",
+                "role_region"      : "Role region",
+                "memo"             : "Memo",
+                "password"         : "Password",
+                "confirm_password" : "Confirm Password",
+                "message":{
+                    "success"    : "Create success",
+                    "error"      : "Create fail",
+                    "password" : "Confirm password not equal with password"
+                }
+            }
+        },
+        "setting":{
+            "general_setting":{
+                "update_setting"             : "Update setting",
+                "change_new_to_normal_after" : "change new to normal after",
+                "block_booking_from"         : "Block booking from",
+                "last_version"               : "Last version",
+                "partner_last_version"       : "GO2JOY PARTNER last version",
+                "cineJoy_last_version"       : "CineJoy last version",
+                "refresh_cache_data"         : "Refresh cache data",
+                "button":{
+                    "refresh": "Refresh"
+                }
+            }
+        },
+        "popup":{
+            "label_header":{
+                "title"                      : "Title",
+                "image"                      : "Image",
+                "linked_name"                : "Linked name",
+                "linked_type"                : "Linked type",
+                "disable_condition"          : "Disable condition",
+                "total_of_views"             : "Total of views",
+                "total_of_clicks"            : "Total of clicks",
+                "status"                     : "Status"
+            },
+            "button":{
+                "edit": "Edit"
+            }
+        },
+        "banner":{
+            "label_header":{
+                "title"                      : "Title",
+                "image"                      : "Image",
+                "linked_name"                : "Linked name",
+                "linked_type"                : "Linked type",
+                "disable_condition"          : "Disable condition",
+                "total_of_views"             : "Total of views",
+                "total_of_clicks"            : "Total of clicks",
+                "status"                     : "Status",
+                "label_header_detail":{
+                    "title"                      : "Title",
+                    "linked_type"                : "Linked type",
+                    "status"                     : "Status",
+                    "display_area"               : "Display area",
+                    "last_update"                : "Last update",
+                    "image"                      : "Image"
+                }
+            },
+            "button":{
+                "edit": "Edit"
+            },
+            "status":{
+                "active"  : "Active",
+                "disable" : "Disable" 
+            }
+        },
+        "service_agreement_mgt":{
+            "update_service_agreement_mgt":{
+                "update_private_policy_service_agreenebt" : "Edit Private Policy",
+                "update_supdate_ervice_agreement_service_agreenebt": "Edit Service Agreement",
+                "update_mileage_point_service_agreenebt":"Edit Mileage Point",
+                "update_payment_policy_service_agreenebt": "Edit Payment policy"
+            }
+        }
+    },
+    "breadcrumb":{
+        "home"              : "Home",
+        "dashboard"         : "Dashboard",
+        "hotels"             : "Hotel",
+        "product-type-mgt"  : "Product Type Mgt",
+        "product-mgt"  : "Product Mgt",
+        "hotel-group-mgt"   : "Hotel Group Mgt",
+        "hotel-display-mgt" : "Hotel Display Mgt",
+        "room-type-mgt"     : "Room Type Mgt",
+        "hotel-staff-mgt"   : "Hotel Staff Mgt",
+        "facility-mgt"      : "Facility Mgt",
+        "notice-to-hotel"   : "Notice to hotel",
+        "stamp-mgt"         : "Stamp Mgt",
+        "review-mgt"        : "Review Mgt",
+        "edit"              : "Update",
+        "create"            : "Create",
+        "detail"            : "Detail",
+        "view-review-hotel" : "Hotel Review Detail",
+        "service_agree"     : "Service AM",
+        "u_lf_side" :
+        {
+            "name"       : "User",
+            "user"       : "User management",
+            "device"     : "Device management",
+            "counseling" : "Counseling management"
+        },
+        "acc_lf_side":
+        {
+            "name"                            : "SA Account Mgt",
+            "account_sale_incentive"          : "Sale Incentive",
+            "account_sale_incentive_history"  : "Sale Incentive History",
+            "detail"                          : "Detail",
+            "detail_of_staff"                 : "Detail of staff",
+            "account_sale_incentive_detail"   : "Account sale incentive detail",
+            "staff_management"                : "Go2JOy Staff Mgt",
+            "confirm_group_mgt"               : "Confirm group setting"
+        },
+        "booking":{
+            "name":"Booking",
+            "booking_report": "Booking Report",
+            "cash_flow_report": "Cash Flow Report",
+            "hotel_debt_mgt": "Hotel Debt Mgt",
+            "sending_mail_mgt": "Sending Mail Mgt"
+        },
+        "tracking-mgt":{
+            "name": "Tracking Mgt",
+            "booking_tracking": "Booking tracking",
+            "hotel_status_tracking": "Hotel status tracking",
+            "booking_insight": "Booking Insight",
+            "hotel_introduce_signup": "Hotel Introduce Signup"
+        },
+        "mileage-point-mgt":{
+            "name": "Mileage Point Mgt",
+            "mp_boosting_mgt": "MP Boosting Mgt",
+            "mp_user_gmt": "MP User Mgt"
+        },
+        "marketing":{
+            "name"       : "Marketing",
+            "banner"     : "Banner",
+            "popup"      : "Popup",
+            "promotion"  :  "Promotion",
+            "invite_friend_mgt" :  "Invite Friend Mgt",
+            "notice"      :  "Notice", 
+            "notification":  "Notification",
+            "sms"         :  "SMS",
+            "crm"         :  "CRM",
+            "pgpb_mgt"    :  "PGPB Mgt",
+            "create_pupup":{
+                "title"            : "Title",
+                "content"          : "Content",
+                "link_item"        : "Link Item",
+                "max_view_display" : "Max view / Display",
+                "stop_at"          : "Stop at",
+                "display_area"     : "Display area",
+                "image"            : "Image",
+                "choose": "option selected",
+                "promotion_event_select": "Promotion / Event",
+                "hotel_select": "Hotel",
+                "notice_select": "Notice",
+                "link_select": "Link",
+                "district_select": "District",
+                "mileage_Point_select": "Mileage point",
+                "coupon_select": "Coupon",
+                "direct_discount_select": "Direct discount",
+                "amenity_pack_select": "Amenity Pack"
+            }
+        },
+        "setting":{
+            "name"            : "Setting",
+            "general_setting" : "General setting"
+        }
+    },
+    "pagination":{
+        "total"  : "Total",
+        "page"   : "Page",
+        "go_to"  : "Go to"
+    },
+    "Region":{  
+        "south"  : "Nam",
+        "north"  : "Bắc",
+        "west"   : "Tây",
+        "est"    : "Đông",
+        "middle" : "Trung"
+    }
+}

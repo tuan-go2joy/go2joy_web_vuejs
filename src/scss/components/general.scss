@@ -1,0 +1,22 @@
+.customs-detail-bar{
+    padding: 20px;
+}
+.customs-detail-bar{ 
+    input[type=text]{
+        width: 100%;
+        height: 130%;
+    }
+}
+a{
+    cursor: pointer;
+}
+.el-link.el-link--default {
+    color: #409EFF !important;
+}
+.el-link.el-link--default:hover{
+    text-decoration: none !important;
+    font-size: 17px;
+}
+.el-link.is-underline:hover:after{
+    border-bottom: none !important;
+}

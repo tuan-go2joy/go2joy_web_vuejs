@@ -1,0 +1,16 @@
+/*.el-table--scrollable-x .el-table__body-wrapper::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+.el-table--scrollable-x .el-table__body-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}*/
+.el-table__footer-wrapper{
+    display: none !important;
+}
+.action-button{
+    float: left;
+    margin-right: 9px;
+}
