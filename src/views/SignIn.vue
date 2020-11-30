@@ -14,7 +14,7 @@
                                     <div>
                                         <div class="form-head">
                                             <a href="" class="logo">
-                                                <img src="assets/images/template/images/logo.png" class="img-fluid" alt="logo">
+                                                <img src="../assets/images/template/images/logo.png" class="img-fluid" alt="logo">
                                             </a>
                                         </div>
                                         <h4 class="text-primary my-4">Hotel Management</h4>
@@ -59,8 +59,8 @@
         <!-- End Container -->
     </div>
 </template>
-
 <script>
+    import CryptoJS from "crypto-js";
     export default {
         layout: 'blank',
         name: 'SignIn',

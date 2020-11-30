@@ -3,7 +3,7 @@
         <!-- Start Infobar Setting Sidebar -->
         <div id="infobar-settings-sidebar" class="infobar-settings-sidebar">
             <div class="infobar-settings-sidebar-head d-flex w-100 justify-content-between">
-                <h4>Settings</h4><a href="javascript:void(0)" id="infobar-settings-close" class="infobar-settings-close"><img src="/static/images/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close"></a>
+                <h4>Settings</h4><a href="javascript:void(0)" id="infobar-settings-close" class="infobar-settings-close"><img src="../../assets/images/template/svg-icon/close.svg" class="img-fluid menu-hamburger-close" alt="close"></a>
             </div>
             <div class="infobar-settings-sidebar-body">
                 <div class="custom-mode-setting">

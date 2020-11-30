@@ -32,7 +32,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
     config = {
         api: {
-            url: 'http://192.168.0.230/api/v1/web/sa',
+            url: 'http://staging-api.go2joy.vn/api/v1/web/sa',
             endpoint: {
                 signIn:                      '/sign-in ',
                 profile:                     '/profile',

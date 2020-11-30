@@ -50,6 +50,7 @@
 
 <style lang="css">
 @import '../assets/scss/main.scss';
+@import '../assets/css/custom-template/style.css';
 @import '~vue-awesome-notifications/dist/styles/style.css';
 @import'~bootstrap/dist/css/bootstrap.css';
 .go2joy-icon-loading {

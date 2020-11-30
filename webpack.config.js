@@ -9,10 +9,13 @@ module.exports = {
     filename: 'build.js'
   },
   module: {
+    loaders: [
+      { test: /\.jsx?$/, loader: 'babel', }
+    ],
     rules: [
-      { 
-        test: /\.(eot|svg|ttf|woff|woff2)$/, 
-        loader: 'url-loader' 
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        loader: 'url-loader'
       },
       {
         test: /\.css$/,

@@ -28,6 +28,9 @@ Vue.component('default-layout',Default);
 Vue.component('blank-layout',Blank);
 
 Vue.prototype.appConfig = Config;
+require("babel-core/register");
+require("babel-polyfill");
+
 
 new Vue({
     el: '#app',

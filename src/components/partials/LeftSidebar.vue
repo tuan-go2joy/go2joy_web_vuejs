@@ -3,8 +3,8 @@
 <div class="sidebar">
     <!-- Start Logobar -->
     <div class="logobar">
-        <a href="dashboard" class="logo logo-large"><img src="/static/images/images/logo.png" class="img-fluid" alt="logo"></a>
-        <a href="dashboard" class="logo logo-small"><img src="/static/images/images/logo-small.png" class="img-fluid" alt="logo"></a>
+        <a href="dashboard" class="logo logo-large"><img src="../../assets/images/template/images/logo.png" class="img-fluid" alt="logo"></a>
+        <a href="dashboard" class="logo logo-small"><img src="../../assets/images/template/images/logo-small.png" class="img-fluid" alt="logo"></a>
     </div>
     <!-- End Logobar -->
     <!-- Start Navigationbar -->
@@ -12,12 +12,12 @@
         <ul class="vertical-menu">
             <li>
                 <a href="dashboard">
-                    <img src="/static/images/svg-icon/dashboard.svg" class="img-fluid" alt="dashboard"><span>{{$t('breadcrumb.home')}}</span>
+                    <img src="../../assets/images/template/svg-icon/dashboard.svg" class="img-fluid" alt="dashboard"><span>{{$t('breadcrumb.home')}}</span>
                 </a>
             </li>
             <li>
                 <a href="javaScript:void(0);">
-                    <img src="/static/images/svg-icon/user.svg" class="img-fluid" alt="user"><span>{{$t('breadcrumb.u_lf_side.name')}}</span><i class="feather icon-chevron-right pull-right"></i>
+                    <img src="../../assets/images/template/svg-icon/user.svg" class="img-fluid" alt="user"><span>{{$t('breadcrumb.u_lf_side.name')}}</span><i class="feather icon-chevron-right pull-right"></i>
                 </a>
                 <ul class="vertical-submenu">
                     <li><a href="devices">{{$t('breadcrumb.u_lf_side.device')}}</a></li>
@@ -27,7 +27,7 @@
             </li>
             <li>
                 <a href="javaScript:void(0);">
-                    <img src="/static/images/svg-icon/advanced.svg" class="img-fluid" alt="advanced"><span>{{$t('breadcrumb.hotels')}}</span><i class="feather icon-chevron-right pull-right"></i>
+                    <img src="../../assets/images/template/svg-icon/advanced.svg" class="img-fluid" alt="advanced"><span>{{$t('breadcrumb.hotels')}}</span><i class="feather icon-chevron-right pull-right"></i>
                 </a>
                 <ul class="vertical-submenu">
                     <li><a href="product-type-mgt">{{$t('breadcrumb.product-type-mgt')}}</a></li>
@@ -44,7 +44,7 @@
             </li>
             <li>
                 <a href="javaScript:void(0);">
-                    <img src="/static/images/svg-icon/basic.svg" class="img-fluid" alt="advanced"><span>{{$t('breadcrumb.booking.name')}}</span><i class="feather icon-chevron-right pull-right"></i>
+                    <img src="../../assets/images/template/svg-icon/basic.svg" class="img-fluid" alt="advanced"><span>{{$t('breadcrumb.booking.name')}}</span><i class="feather icon-chevron-right pull-right"></i>
                 </a>
                 <ul class="vertical-submenu">
                     <li><a href="booking-report">{{$t('breadcrumb.booking.booking_report')}}</a></li>
@@ -75,7 +75,7 @@
             </li>
             <li>
                 <a href="javaScript:void(0);">
-                    <img src="/static/images/svg-icon/form_elements.svg" class="img-fluid" alt="advanced"><span><a href="service-agreement-mgt">{{$t('breadcrumb.service_agree')}}</a></span>
+                    <img src="../../assets/images/template/svg-icon/form_elements.svg" class="img-fluid" alt="advanced"><span><a href="service-agreement-mgt">{{$t('breadcrumb.service_agree')}}</a></span>
                 </a>
 
             </li>
@@ -115,7 +115,7 @@
             </li>
             <!-- <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/apps.svg" class="img-fluid" alt="apps"><span>Apps</span><i class="feather icon-chevron-right pull-right"></i>
+                        <img src="../../assets/images/template/svg-icon/apps.svg" class="img-fluid" alt="apps"><span>Apps</span><i class="feather icon-chevron-right pull-right"></i>
                     </a>
                     <ul class="vertical-submenu">
                         <li><a href="javaScript:void(0);">Calender</a></li>
@@ -130,7 +130,7 @@
                 </li>
                 <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/form_elements.svg" class="img-fluid" alt="form_elements"><span>Forms</span><i class="feather icon-chevron-right pull-right"></i>
+                        <img src="../../assets/images/template/svg-icon/form_elements.svg" class="img-fluid" alt="form_elements"><span>Forms</span><i class="feather icon-chevron-right pull-right"></i>
                     </a>
                     <ul class="vertical-submenu">
 
@@ -138,7 +138,7 @@
                 </li>
                 <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/chart.svg" class="img-fluid" alt="chart"><span>Charts</span><i class="feather icon-chevron-right pull-right"></i>
+                        <img src="../../assets/images/template/svg-icon/chart.svg" class="img-fluid" alt="chart"><span>Charts</span><i class="feather icon-chevron-right pull-right"></i>
                     </a>
                     <ul class="vertical-submenu">
 
@@ -146,7 +146,7 @@
                 </li>
                 <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/icons.svg" class="img-fluid" alt="icons"><span>Icons</span><i class="feather icon-chevron-right pull-right"></i>
+                        <img src="../../assets/images/template/svg-icon/icons.svg" class="img-fluid" alt="icons"><span>Icons</span><i class="feather icon-chevron-right pull-right"></i>
                     </a>
                     <ul class="vertical-submenu">
                     </ul>
@@ -154,7 +154,7 @@
 
                 <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/tables.svg" class="img-fluid" alt="tables"><span>Tables</span><i class="feather icon-chevron-right pull-right"></i>
+                        <img src="../../assets/images/template/svg-icon/tables.svg" class="img-fluid" alt="tables"><span>Tables</span><i class="feather icon-chevron-right pull-right"></i>
                     </a>
                     <ul class="vertical-submenu">
 
@@ -162,7 +162,7 @@
                 </li>
                 <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/maps.svg" class="img-fluid" alt="maps"><span>Maps</span><i class="feather icon-chevron-right pull-right"></i>
+                        <img src="../../assets/images/template/svg-icon/maps.svg" class="img-fluid" alt="maps"><span>Maps</span><i class="feather icon-chevron-right pull-right"></i>
                     </a>
                     <ul class="vertical-submenu">
 
@@ -170,12 +170,12 @@
                 </li>
                 <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/widgets.svg" class="img-fluid" alt="widgets"><span>Widgets</span><span class="badge badge-success pull-right">New</span>
+                        <img src="../../assets/images/template/svg-icon/widgets.svg" class="img-fluid" alt="widgets"><span>Widgets</span><span class="badge badge-success pull-right">New</span>
                     </a>
                 </li>
                 <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/pages.svg" class="img-fluid" alt="pages"><span>Pages</span><i class="feather icon-chevron-right pull-right"></i>
+                        <img src="../../assets/images/template/svg-icon/pages.svg" class="img-fluid" alt="pages"><span>Pages</span><i class="feather icon-chevron-right pull-right"></i>
                     </a>
                     <ul class="vertical-submenu">
                         <li>
@@ -193,7 +193,7 @@
                 </li>
                 <li>
                     <a href="javaScript:void(0);">
-                        <img src="/static/images/svg-icon/ecommerce.svg" class="img-fluid" alt="ecommerce"><span>eCommerce</span><i class="feather icon-chevron-right pull-right"></i>
+                        <img src="../../assets/images/template/svg-icon/ecommerce.svg" class="img-fluid" alt="ecommerce"><span>eCommerce</span><i class="feather icon-chevron-right pull-right"></i>
                     </a>
                     <ul class="vertical-submenu">
                     </ul>
